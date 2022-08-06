@@ -10,8 +10,8 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long pno;
 
-    @ManyToMany
-    private List<Category> categoryList;
+//    @ManyToMany
+//    private List<Category> categoryList;
 
 
 }
